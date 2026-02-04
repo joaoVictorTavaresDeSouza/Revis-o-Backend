@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revisão Backend - IA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="logo-section">
+                <h1 class="logo">✨ Backend API</h1>
+                <p class="subtitle">Powered by AI</p>
+            </div>
+        </header>
+
+        <main class="main-content">
+            <section class="hero">
+                <h2>Bem-vindo ao Backend</h2>
+                <p>Clique no botão abaixo para conectar à API</p>
+            </section>
+
+            <section class="api-section">
+                <div class="card">
+                    <div class="card-header">
+                        <h3>🚀 Conectar à API</h3>
+                    </div>
+                    <div class="card-body">
+                        <button id="fetchBtn" class="btn btn-primary">Chamar API</button>
+                        <div id="response" class="response-container"></div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="info-section">
+                <div class="info-grid">
+                    <div class="info-card">
+                        <div class="icon">📡</div>
+                        <h4>API REST</h4>
+                        <p>Express.js rodando na porta 3333</p>
+                    </div>
+                    <div class="info-card">
+                        <div class="icon">⚡</div>
+                        <h4>Rápido</h4>
+                        <p>Respostas instantâneas do servidor</p>
+                    </div>
+                    <div class="info-card">
+                        <div class="icon">🤖</div>
+                        <h4>Inteligência</h4>
+                        <p>Desenvolvido com assistência de IA</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="status-section">
+                <h3>Status da Conexão</h3>
+                <div class="status-indicator">
+                    <span id="statusDot" class="status-dot"></span>
+                    <span id="statusText" class="status-text">Aguardando conexão...</span>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <p>&copy; 2026 Revisão Backend. Desenvolvido com ❤️ e IA</p>
+            <p class="version">v1.0.0</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
